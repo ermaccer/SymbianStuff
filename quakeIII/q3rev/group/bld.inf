@@ -1,0 +1,14 @@
+PRJ_MMPFILES
+
+..\nanogl\group\nanogl.mmp
+quake3.mmp
+cgamearm.mmp
+qagamearm.mmp
+uiarm.mmp
+gnumakefile quake3_icons.mk
+
+PRJ_EXPORTS
+
+..\nanogl\inc\gl.h                 \epoc32\include\gl\gl.h
+..\nanogl\inc\egl.h                \epoc32\include\gl\egl.h
+..\nanogl\inc\nanogl.h             \epoc32\include\nanogl.h

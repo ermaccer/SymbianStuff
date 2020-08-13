@@ -1,0 +1,20 @@
+&EN
+
+#{"Quake3 - Arena"},(0xA0002E92),1,1,0,TYPE=SA
+;
+;Localised Vendor name
+%{"Rappio Entertainment"}
+
+;Unique Vendor name
+:"Rappio Entertainment"
+
+[0x102032be], 0, 0, 0, {"S60_FP1_SUPPORT"}
+
+"..\..\epoc32\release\armv5\urel\quake3.exe"-"!:\sys\bin\quake3.exe"
+"..\..\epoc32\release\armv5\urel\cgame-arm.dll"-"!:\sys\bin\cgame-arm.dll"
+"..\..\epoc32\release\armv5\urel\qagame-arm.dll"-"!:\sys\bin\qagame-arm.dll"
+"..\..\epoc32\release\armv5\urel\ui-arm.dll"-"!:\sys\bin\ui-arm.dll"
+"..\..\epoc32\data\z\private\10003a3f\apps\quake3_reg.rsc"-"!:\private\10003a3f\import\apps\quake3_reg.rsc"
+"..\..\epoc32\data\z\resource\apps\quake3.rsc"-"!:\resource\apps\quake3.rsc"
+"..\..\epoc32\data\z\resource\apps\quake3_icons.mif"-"!:\resource\apps\quake3_icons.mif"
+

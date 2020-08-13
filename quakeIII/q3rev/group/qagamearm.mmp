@@ -1,0 +1,64 @@
+#include <..\inc\quake3_uid.h>
+
+TARGET              qagame-arm.dll
+TARGETTYPE          dll
+UID                 0x1000008D QUAKE3_QAGAME_DLLUID
+
+EPOCALLOWDLLDATA
+
+OPTION              CW -include ..\inc\cw_win32off.h
+
+//OPTION_REPLACE      ARMCC --arm -O3 -Otime --cpu 6 --fpmode fast
+OPTION_REPLACE      ARMCC --arm -O3 -Otime --cpu 6 --fpu VFPv2 --fpmode fast
+
+CAPABILITY          NetworkServices ReadUserData
+
+LANG                SC
+
+USERINCLUDE         .
+USERINCLUDE         ..\inc
+SYSTEMINCLUDE       \epoc32\include
+SYSTEMINCLUDE       \epoc32\include\stdapis
+
+
+USERINCLUDE         ..\quake3-1.32b\code\game
+SOURCEPATH          ..\quake3-1.32b\code\game
+
+SOURCE              ai_chat.c
+SOURCE             	ai_cmd.c
+SOURCE             	ai_dmnet.c
+SOURCE            	ai_dmq3.c
+SOURCE             	ai_main.c
+SOURCE             	ai_team.c
+SOURCE              ai_vcmd.c
+SOURCE              bg_misc.c
+SOURCE              bg_pmove.c
+SOURCE              bg_slidemove.c
+SOURCE              g_active.c
+SOURCE              g_arenas.c
+SOURCE              g_bot.c
+SOURCE              g_client.c
+SOURCE              g_cmds.c
+SOURCE              g_combat.c
+SOURCE              g_items.c
+SOURCE              g_main.c
+SOURCE              g_mem.c
+SOURCE              g_misc.c
+SOURCE              g_missile.c
+SOURCE              g_mover.c
+SOURCE              g_session.c
+SOURCE              g_spawn.c
+SOURCE              g_svcmds.c
+SOURCE              g_syscalls.c
+SOURCE              g_target.c
+SOURCE              g_team.c
+SOURCE              g_trigger.c
+SOURCE              g_utils.c
+SOURCE              g_weapon.c
+	
+SOURCE              q_math.c
+SOURCE              q_shared.c
+
+LIBRARY         	libc.lib
+LIBRARY             libm.lib
+

@@ -1,0 +1,4 @@
+EXPORTS
+	dllEntry @ 1 NONAME
+	vmMain @ 2 NONAME
+

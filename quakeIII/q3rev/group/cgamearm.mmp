@@ -1,0 +1,58 @@
+#include <..\inc\quake3_uid.h>
+
+TARGET              cgame-arm.dll
+TARGETTYPE          dll
+UID                 0x1000008D QUAKE3_CGAME_DLLUID
+
+EPOCALLOWDLLDATA
+
+OPTION              CW -include ..\inc\cw_win32off.h
+
+//OPTION_REPLACE      ARMCC --arm -O3 -Otime --cpu 6 --fpmode fast
+OPTION_REPLACE      ARMCC --arm -O3 -Otime --cpu 6 --fpu VFPv2 --fpmode fast
+
+CAPABILITY          NetworkServices ReadUserData
+
+LANG                SC
+
+USERINCLUDE         .
+USERINCLUDE         ..\inc
+SYSTEMINCLUDE       \epoc32\include
+SYSTEMINCLUDE       \epoc32\include\stdapis
+
+
+USERINCLUDE         ..\quake3-1.32b\code\game
+SOURCEPATH          ..\quake3-1.32b\code\game
+
+SOURCE              bg_misc.c
+SOURCE              bg_pmove.c
+SOURCE              bg_slidemove.c
+SOURCE              q_math.c
+SOURCE              q_shared.c
+
+USERINCLUDE         ..\quake3-1.32b\code\cgame
+SOURCEPATH          ..\quake3-1.32b\code\cgame
+
+SOURCE              cg_consolecmds.c
+SOURCE              cg_draw.c
+SOURCE              cg_drawtools.c
+SOURCE              cg_effects.c
+SOURCE              cg_ents.c
+SOURCE              cg_event.c
+SOURCE              cg_info.c
+SOURCE              cg_localents.c
+SOURCE              cg_main.c
+SOURCE              cg_marks.c
+SOURCE              cg_players.c
+SOURCE              cg_playerstate.c
+SOURCE              cg_predict.c
+SOURCE              cg_scoreboard.c
+SOURCE              cg_servercmds.c
+SOURCE              cg_snapshot.c
+SOURCE              cg_syscalls.c
+SOURCE              cg_view.c
+SOURCE              cg_weapons.c cg_newdraw.c cg_particles.c
+
+LIBRARY         	libc.lib
+LIBRARY             libm.lib
+

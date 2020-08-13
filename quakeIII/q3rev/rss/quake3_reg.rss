@@ -1,0 +1,15 @@
+#include <appinfo.rh>
+#include <quake3.rsg>
+#include "quake3_uid.h"
+
+UID2 KUidAppRegistrationResourceFile
+UID3 QUAKE3_APPUID
+
+RESOURCE APP_REGISTRATION_INFO
+    {
+    app_file = "Quake3";
+    localisable_resource_file = "\\resource\\apps\\Quake3";
+    localisable_resource_id = R_QUAKE3_LOCALISABLE_APP_INFO;
+    }
+
+// End of File

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule buildFromInf="true" buildingTestComps="true" cleanLevel="0" concurrentBuildJobs="4" defaultMMPChangedAction="0" extraSBSv2Args="" infBuildComponents="" infFileLocation="group\bld.inf" macrosFile="" makeEngineToUse="make" manageDependencies="true" moduleId="com.nokia.carbide.cdt.builder.carbideCPPBuilder" overrideMakeEngine="false" overrideWorkspaceSettings="false" promptForMMPChangedAction="true" useConcurrentBuilding="true" useDebugMode="false" useIncrementalBuilder="false" useKeepGoing="false" useMMPMacros="true"/>
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.nokia.carbide.builder.raptor.armv5_udeb.Nokia_Symbian_Belle_SDK_v1.0">
+			<storageModule buildSystemId="com.nokia.carbide.cdt.builder.CarbideConfigurationDataProvider" id="com.nokia.carbide.builder.raptor.armv5_udeb.Nokia_Symbian_Belle_SDK_v1.0" moduleId="org.eclipse.cdt.core.settings" name="armv5_udeb [Nokia_Symbian_Belle_SDK_v1.0]">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.nokia.cdt.debug.cw.symbian.SymbianE32" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.SBSv2ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.BldmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.RomBuildErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.MakeSisErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.MakmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.RVCTLinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.CarbideMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.Elf2E32ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.MWLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.RCOMPErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.MakeDefErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.RVCTCompilerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="CarbideConfigurationDataProvider">
+				<ENV_VAR_DATA_ID/>
+				<SBSV2_DATA_ID ATTRIB_SBSV2_SDK_ID="Nokia_Symbian_Belle_SDK_v1.0" SBSV2_BUILD_ALIAS="armv5_udeb" SBSV2_CONFIG_DISPLAY_STRING="armv5_udeb [Nokia_Symbian_Belle_SDK_v1.0]"/>
+			</storageModule>
+			<storageModule filesCache="F:\bent\Symbian\q3rev\nanoGL\group\nanoGL.mmp;F:\bent\Symbian\q3rev\nanoGL\group\bld.inf;" includesCache="F:/bent/Symbian/q3rev/nanoGL/group[LOCAL];F:/bent/Symbian/q3rev/nanoGL/inc[LOCAL];F:/bent/Symbian/s3sdk/Nokia_Symbian_Belle_SDK_v1.0/epoc32/include;F:/bent/Symbian/s3sdk/Nokia_Symbian_Belle_SDK_v1.0/epoc32/include/stdapis;F:/bent/Symbian/s3sdk/Nokia_Symbian_Belle_SDK_v1.0/epoc32/include/oem;" macrosCache="__MULTITEXTURE_SUPPORT__=1;__LIB__=1;" moduleId="configDataCache" sourcesCache="/nanoGL/group;/nanoGL/inc;/nanoGL/src;" timestampCache="1597312049564" useMmpMacrosCache="true"/>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.nokia.carbide.builder.raptor.armv5_urel.Nokia_Symbian_Belle_SDK_v1.0">
+			<storageModule buildSystemId="com.nokia.carbide.cdt.builder.CarbideConfigurationDataProvider" id="com.nokia.carbide.builder.raptor.armv5_urel.Nokia_Symbian_Belle_SDK_v1.0" moduleId="org.eclipse.cdt.core.settings" name="armv5_urel [Nokia_Symbian_Belle_SDK_v1.0]">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.nokia.cdt.debug.cw.symbian.SymbianE32" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.SBSv2ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.BldmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.RomBuildErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.MakeSisErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.MakmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.RVCTLinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.CarbideMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.Elf2E32ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.MWLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.RCOMPErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.MakeDefErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.RVCTCompilerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="CarbideConfigurationDataProvider">
+				<ENV_VAR_DATA_ID/>
+				<SBSV2_DATA_ID ATTRIB_SBSV2_SDK_ID="Nokia_Symbian_Belle_SDK_v1.0" SBSV2_BUILD_ALIAS="armv5_urel" SBSV2_CONFIG_DISPLAY_STRING="armv5_urel [Nokia_Symbian_Belle_SDK_v1.0]"/>
+			</storageModule>
+			<storageModule filesCache="F:\bent\Symbian\q3rev\nanoGL\group\nanoGL.mmp;F:\bent\Symbian\q3rev\nanoGL\group\bld.inf;" includesCache="F:/bent/Symbian/q3rev/nanoGL/group[LOCAL];F:/bent/Symbian/q3rev/nanoGL/inc[LOCAL];F:/bent/Symbian/s3sdk/Nokia_Symbian_Belle_SDK_v1.0/epoc32/include;F:/bent/Symbian/s3sdk/Nokia_Symbian_Belle_SDK_v1.0/epoc32/include/stdapis;F:/bent/Symbian/s3sdk/Nokia_Symbian_Belle_SDK_v1.0/epoc32/include/oem;" macrosCache="__MULTITEXTURE_SUPPORT__=1;__LIB__=1;" moduleId="configDataCache" sourcesCache="/nanoGL/group;/nanoGL/inc;/nanoGL/src;" timestampCache="1597312049573" useMmpMacrosCache="true"/>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.nokia.carbide.builder.raptor.armv5_udeb_gcce.Nokia_Symbian_Belle_SDK_v1.0">
+			<storageModule buildSystemId="com.nokia.carbide.cdt.builder.CarbideConfigurationDataProvider" id="com.nokia.carbide.builder.raptor.armv5_udeb_gcce.Nokia_Symbian_Belle_SDK_v1.0" moduleId="org.eclipse.cdt.core.settings" name="armv5_udeb_gcce [Nokia_Symbian_Belle_SDK_v1.0]">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.nokia.cdt.debug.cw.symbian.SymbianE32" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.MakmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.CarbideMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.SBSv2ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.Elf2E32ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.RCOMPErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.GCCECompilerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.MakeDefErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.GCCEAssemblerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.GCCELinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="CarbideConfigurationDataProvider">
+				<ENV_VAR_DATA_ID/>
+				<SBSV2_DATA_ID ATTRIB_SBSV2_SDK_ID="Nokia_Symbian_Belle_SDK_v1.0" CONFIG_BASE_PLATFORM="ARMV5" CONFIG_TARGET="UDEB" SBSV2_BUILD_ALIAS="armv5_udeb_gcce" SBSV2_CONFIG_DISPLAY_STRING="armv5_udeb_gcce [Nokia_Symbian_Belle_SDK_v1.0]"/>
+			</storageModule>
+			<storageModule filesCache="F:\bent\Symbian\q3rev\nanoGL\group\nanoGL.mmp;F:\bent\Symbian\q3rev\nanoGL\group\bld.inf;" includesCache="F:/bent/Symbian/q3rev/nanoGL/group[LOCAL];F:/bent/Symbian/q3rev/nanoGL/inc[LOCAL];F:/bent/Symbian/s3sdk/Nokia_Symbian_Belle_SDK_v1.0/epoc32/include/variant;F:/bent/Symbian/s3sdk/Nokia_Symbian_Belle_SDK_v1.0/epoc32/include;F:/bent/Symbian/s3sdk/Nokia_Symbian_Belle_SDK_v1.0/epoc32/include/stdapis;F:/bent/Symbian/s3sdk/Nokia_Symbian_Belle_SDK_v1.0/epoc32/include/oem;" macrosCache="_UNICODE;__SYMBIAN32__;__GCCE__;__SUPPORT_CPP_EXCEPTIONS__;__MARM__;__PRODUCT_INCLUDE__=\&quot;/bent/Symbian/s3sdk/Nokia_Symbian_Belle_SDK_v1.0/epoc32/include/variant/symbian_os.hrh\&quot;;__GCCE_4_4__;__GCCE_4__;__EPOC32__;__MARM_ARMV5__;__EABI__;_DEBUG;__NO_CLASS_CONSTS__=1;__NORETURN__=__declspec(noreturn);__NORETURN_TERMINATOR()=1;IMPORT_C=__declspec(dllimport);EXPORT_C=__declspec(dllexport);IMPORT_D=__declspec(dllimport);EXPORT_D=__declspec(dllexport);NONSHARABLE_CLASS(x)=class __declspec(notshared) x;NONSHARABLE_STRUCT(x)=struct __declspec(notshared) x;__NO_THROW=throw ();__THROW(t)=throw (t);TEMPLATE_SPECIALIZATION=template&lt;&gt;;__int64=long long;__VALUE_IN_REGS__=1;I64LIT(x)=x##LL;UI64LIT(x)=x##ULL;__SOFTFP=1;__wchar_t_defined=1;__TText_defined=1;__NAKED__=__declspec(naked);____ONLY_USE_NAKED_IN_CIA____=__declspec(naked);va_start(ap,parmN)=__builtin_va_start(ap, parmN);va_arg(ap,type)=__builtin_va_arg(ap, type);va_end(ap)=__builtin_va_end(ap);VA_LIST=va_list;_VA_LIST_DEFINED=1;__VA_LIST_defined=1;VA_START(ap,pn)=va_start(ap, pn);VA_ARG(ap,type)=va_arg(ap,type);VA_END(ap)=va_end(ap);_STDARG_H=1;_STDARG_E_H=1;__EABI__=1;__EABI_CTORS__=1;__OPERATOR_NEW_DECLARED__=1;__EH_FRAME_ADDRESS(reg,offset)=FRAME ADDRESS reg, offset;__EH_FRAME_PUSH2(reg1,reg2)=FRAME PUSH {reg1, reg2};__EH_FRAME_SAVE1(reg,offset)=FRAME SAVE {reg}, offset;__SYMBIAN32__;_UNICODE;__GCCE__;__MARM__;__SUPPORT_CPP_EXCEPTIONS__;__GCCE_4_4__;__PRODUCT_INCLUDE__=\&quot;/bent/Symbian/s3sdk/Nokia_Symbian_Belle_SDK_v1.0/epoc32/include/variant/symbian_os.hrh\&quot;;__GCCE_4__;__MARM_ARMV5__;__EPOC32__;__EABI__;_DEBUG;MARM=_____MARM;GCCE_4=_____GCCE_4;__GNUC__=3;GCCE=_____GCCE;GENERIC_MARM=_____GENERIC_MARM;SBSV2=_____SBSV2;EABI=_____EABI;MARM_ARMV5=_____MARM_ARMV5;EPOC32=_____EPOC32;GCCE_4_4=_____GCCE_4_4;__MULTITEXTURE_SUPPORT__=1;__LIB__=1;" moduleId="configDataCache" sourcesCache="/nanoGL/group;/nanoGL/inc;/nanoGL/src;" timestampCache="1597312049581" useMmpMacrosCache="true"/>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.nokia.carbide.builder.raptor.armv5_urel_gcce.Nokia_Symbian_Belle_SDK_v1.0">
+			<storageModule buildSystemId="com.nokia.carbide.cdt.builder.CarbideConfigurationDataProvider" id="com.nokia.carbide.builder.raptor.armv5_urel_gcce.Nokia_Symbian_Belle_SDK_v1.0" moduleId="org.eclipse.cdt.core.settings" name="armv5_urel_gcce [Nokia_Symbian_Belle_SDK_v1.0]">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.nokia.cdt.debug.cw.symbian.SymbianE32" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.MakmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.CarbideMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.SBSv2ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.Elf2E32ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.RCOMPErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.GCCECompilerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.MakeDefErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.GCCEAssemblerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.GCCELinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="CarbideConfigurationDataProvider">
+				<ENV_VAR_DATA_ID/>
+				<SBSV2_DATA_ID ATTRIB_SBSV2_SDK_ID="Nokia_Symbian_Belle_SDK_v1.0" CONFIG_BASE_PLATFORM="ARMV5" CONFIG_TARGET="UREL" SBSV2_BUILD_ALIAS="armv5_urel_gcce" SBSV2_CONFIG_DISPLAY_STRING="armv5_urel_gcce [Nokia_Symbian_Belle_SDK_v1.0]"/>
+			</storageModule>
+			<storageModule filesCache="F:\bent\Symbian\q3rev\nanoGL\group\nanoGL.mmp;F:\bent\Symbian\q3rev\nanoGL\group\bld.inf;" includesCache="F:/bent/Symbian/q3rev/nanoGL/group[LOCAL];F:/bent/Symbian/q3rev/nanoGL/inc[LOCAL];F:/bent/Symbian/s3sdk/Nokia_Symbian_Belle_SDK_v1.0/epoc32/include/variant;F:/bent/Symbian/s3sdk/Nokia_Symbian_Belle_SDK_v1.0/epoc32/include;F:/bent/Symbian/s3sdk/Nokia_Symbian_Belle_SDK_v1.0/epoc32/include/stdapis;F:/bent/Symbian/s3sdk/Nokia_Symbian_Belle_SDK_v1.0/epoc32/include/oem;" macrosCache="_UNICODE;__SYMBIAN32__;__GCCE__;__SUPPORT_CPP_EXCEPTIONS__;__MARM__;__PRODUCT_INCLUDE__=\&quot;/bent/Symbian/s3sdk/Nokia_Symbian_Belle_SDK_v1.0/epoc32/include/variant/symbian_os.hrh\&quot;;__GCCE_4_4__;__GCCE_4__;__EPOC32__;__MARM_ARMV5__;NDEBUG;__EABI__;__NO_CLASS_CONSTS__=1;__NORETURN__=__declspec(noreturn);__NORETURN_TERMINATOR()=1;IMPORT_C=__declspec(dllimport);EXPORT_C=__declspec(dllexport);IMPORT_D=__declspec(dllimport);EXPORT_D=__declspec(dllexport);NONSHARABLE_CLASS(x)=class __declspec(notshared) x;NONSHARABLE_STRUCT(x)=struct __declspec(notshared) x;__NO_THROW=throw ();__THROW(t)=throw (t);TEMPLATE_SPECIALIZATION=template&lt;&gt;;__int64=long long;__VALUE_IN_REGS__=1;I64LIT(x)=x##LL;UI64LIT(x)=x##ULL;__SOFTFP=1;__wchar_t_defined=1;__TText_defined=1;__NAKED__=__declspec(naked);____ONLY_USE_NAKED_IN_CIA____=__declspec(naked);va_start(ap,parmN)=__builtin_va_start(ap, parmN);va_arg(ap,type)=__builtin_va_arg(ap, type);va_end(ap)=__builtin_va_end(ap);VA_LIST=va_list;_VA_LIST_DEFINED=1;__VA_LIST_defined=1;VA_START(ap,pn)=va_start(ap, pn);VA_ARG(ap,type)=va_arg(ap,type);VA_END(ap)=va_end(ap);_STDARG_H=1;_STDARG_E_H=1;__EABI__=1;__EABI_CTORS__=1;__OPERATOR_NEW_DECLARED__=1;__EH_FRAME_ADDRESS(reg,offset)=FRAME ADDRESS reg, offset;__EH_FRAME_PUSH2(reg1,reg2)=FRAME PUSH {reg1, reg2};__EH_FRAME_SAVE1(reg,offset)=FRAME SAVE {reg}, offset;__SYMBIAN32__;_UNICODE;__GCCE__;__MARM__;__SUPPORT_CPP_EXCEPTIONS__;__GCCE_4_4__;__PRODUCT_INCLUDE__=\&quot;/bent/Symbian/s3sdk/Nokia_Symbian_Belle_SDK_v1.0/epoc32/include/variant/symbian_os.hrh\&quot;;__GCCE_4__;NDEBUG;__MARM_ARMV5__;__EPOC32__;__EABI__;MARM=_____MARM;GCCE_4=_____GCCE_4;__GNUC__=3;GCCE=_____GCCE;GENERIC_MARM=_____GENERIC_MARM;SBSV2=_____SBSV2;EABI=_____EABI;MARM_ARMV5=_____MARM_ARMV5;EPOC32=_____EPOC32;GCCE_4_4=_____GCCE_4_4;__MULTITEXTURE_SUPPORT__=1;__LIB__=1;" moduleId="configDataCache" sourcesCache="/nanoGL/group;/nanoGL/inc;/nanoGL/src;" timestampCache="1597312049590" useMmpMacrosCache="true"/>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.nokia.carbide.builder.raptor.winscw_udeb.Nokia_Symbian_Belle_SDK_v1.0">
+			<storageModule buildSystemId="com.nokia.carbide.cdt.builder.CarbideConfigurationDataProvider" id="com.nokia.carbide.builder.raptor.winscw_udeb.Nokia_Symbian_Belle_SDK_v1.0" moduleId="org.eclipse.cdt.core.settings" name="winscw_udeb [Nokia_Symbian_Belle_SDK_v1.0]">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.nokia.cdt.debug.cw.symbian.SymbianE32" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.MakmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.CarbideMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.SBSv2ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.MWLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.RCOMPErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.MWCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.MakeDefErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="CarbideConfigurationDataProvider">
+				<ENV_VAR_DATA_ID/>
+				<SBSV2_DATA_ID ATTRIB_SBSV2_SDK_ID="Nokia_Symbian_Belle_SDK_v1.0" CONFIG_BASE_PLATFORM="WINSCW" CONFIG_TARGET="UDEB" SBSV2_BUILD_ALIAS="winscw_udeb" SBSV2_CONFIG_DISPLAY_STRING="winscw_udeb [Nokia_Symbian_Belle_SDK_v1.0]"/>
+			</storageModule>
+			<storageModule filesCache="F:\bent\Symbian\q3rev\nanoGL\group\nanoGL.mmp;F:\bent\Symbian\q3rev\nanoGL\group\bld.inf;" includesCache="F:/bent/Symbian/q3rev/nanoGL/group[LOCAL];F:/bent/Symbian/q3rev/nanoGL/inc[LOCAL];F:/bent/Symbian/s3sdk/Nokia_Symbian_Belle_SDK_v1.0/epoc32/include/variant;F:/bent/Symbian/s3sdk/Nokia_Symbian_Belle_SDK_v1.0/epoc32/include;F:/bent/Symbian/s3sdk/Nokia_Symbian_Belle_SDK_v1.0/epoc32/include/stdapis;F:/bent/Symbian/s3sdk/Nokia_Symbian_Belle_SDK_v1.0/epoc32/include/oem;" macrosCache="__SYMBIAN32__;_UNICODE;__SUPPORT_CPP_EXCEPTIONS__;__CW32__;__WINS__;__WINSCW__;_DEBUG;_UNICODE;__SYMBIAN32__;__SUPPORT_CPP_EXCEPTIONS__;__CW32__;__WINS__;__WINSCW__;_DEBUG;WINS=_____WINS;WINSCW=_____WINSCW;__GNUC__=3;SBSV2=_____SBSV2;CW32=_____CW32;__MULTITEXTURE_SUPPORT__=1;__LIB__=1;" moduleId="configDataCache" sourcesCache="/nanoGL/group;/nanoGL/inc;/nanoGL/src;" timestampCache="1597312049599" useMmpMacrosCache="true"/>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+</cproject>

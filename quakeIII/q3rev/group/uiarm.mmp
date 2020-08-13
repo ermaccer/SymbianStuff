@@ -1,0 +1,77 @@
+#include <..\inc\quake3_uid.h>
+
+TARGET              ui-arm.dll
+TARGETTYPE          dll
+UID                 0x1000008D QUAKE3_UI_DLLUID
+
+EPOCALLOWDLLDATA
+
+OPTION              CW -include ..\inc\cw_win32off.h
+
+//OPTION_REPLACE      ARMCC --arm -O3 -Otime --cpu 6 --fpmode fast
+OPTION_REPLACE      ARMCC --arm -O3 -Otime --cpu 6 --fpu VFPv2 --fpmode fast
+
+CAPABILITY          NetworkServices ReadUserData
+
+LANG                SC
+
+USERINCLUDE         .
+USERINCLUDE         ..\inc
+SYSTEMINCLUDE       \epoc32\include
+SYSTEMINCLUDE       \epoc32\include\stdapis
+
+
+USERINCLUDE         ..\quake3-1.32b\code\game
+SOURCEPATH          ..\quake3-1.32b\code\game
+
+SOURCE              bg_misc.c
+SOURCE              q_math.c
+SOURCE              q_shared.c
+
+USERINCLUDE         ..\quake3-1.32b\code\q3_ui
+SOURCEPATH          ..\quake3-1.32b\code\q3_ui
+
+SOURCE              ui_addbots.c
+SOURCE              ui_atoms.c
+SOURCE              ui_cdkey.c
+SOURCE              ui_cinematics.c
+SOURCE              ui_confirm.c
+SOURCE              ui_connect.c
+SOURCE              ui_controls2.c
+SOURCE              ui_credits.c
+SOURCE              ui_demo2.c
+SOURCE              ui_display.c
+SOURCE              ui_gameinfo.c
+SOURCE              ui_ingame.c
+SOURCE              ui_loadconfig.c
+SOURCE              ui_main.c
+SOURCE              ui_menu.c
+SOURCE              ui_mfield.c
+SOURCE              ui_mods.c
+SOURCE              ui_network.c
+SOURCE              ui_options.c
+SOURCE              ui_playermodel.c
+SOURCE              ui_players.c
+SOURCE              ui_playersettings.c
+SOURCE              ui_preferences.c
+SOURCE              ui_qmenu.c
+SOURCE              ui_removebots.c
+SOURCE              ui_saveconfig.c
+SOURCE              ui_serverinfo.c
+SOURCE              ui_servers2.c
+SOURCE              ui_setup.c
+SOURCE              ui_sound.c
+SOURCE              ui_sparena.c
+SOURCE              ui_specifyserver.c
+SOURCE              ui_splevel.c
+SOURCE              ui_sppostgame.c
+SOURCE              ui_spskill.c
+SOURCE              ui_startserver.c
+SOURCE              ui_syscalls.c
+SOURCE              ui_team.c
+SOURCE              ui_teamorders.c
+SOURCE              ui_video.c ui_login.c ui_rankings.c ui_rankstatus.c ui_signup.c ui_specifyleague.c ui_spreset.c
+
+        
+LIBRARY         	libc.lib
+LIBRARY             libm.lib

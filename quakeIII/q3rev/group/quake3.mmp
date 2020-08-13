@@ -1,0 +1,245 @@
+#include <..\inc\quake3_uid.h>
+
+
+CAPABILITY              NetworkServices ReadUserData
+
+TARGETPATH	            \sys\bin
+TARGET                  quake3.exe
+TARGETTYPE              exe
+EPOCSTACKSIZE           0x2000
+#if defined(WINS)
+EPOCHEAPSIZE            0x50000 0x2000000
+#else
+EPOCHEAPSIZE            0x50000 0x6000000
+#endif
+EPOCPROCESSPRIORITY     background
+
+OPTION                  CW -include ..\inc\cw_win32off.h
+//OPTION_REPLACE          ARMCC --arm -O3 -Otime --cpu 6 --fpmode fast
+OPTION_REPLACE          ARMCC --arm -O3 -Otime --cpu 6 --fpu VFPv2 --fpmode fast
+
+UID                     0x100039CE QUAKE3_APPUID
+
+LANG                    SC
+
+MACRO                   BOTLIB
+
+SYSTEMINCLUDE           \epoc32\include
+SYSTEMINCLUDE           \epoc32\include\stdapis
+SYSTEMINCLUDE           \epoc32\include\gl
+USERINCLUDE             .
+USERINCLUDE             ..\inc
+
+USERINCLUDE             ..\quake3-1.32b\code\botlib
+SOURCEPATH              ..\quake3-1.32b\code\botlib
+
+SOURCE                  be_aas_bspq3.c
+SOURCE                  be_aas_cluster.c
+SOURCE                  be_aas_debug.c
+SOURCE                  be_aas_entity.c
+SOURCE                  be_aas_file.c
+SOURCE                  be_aas_main.c
+SOURCE                  be_aas_move.c
+SOURCE                  be_aas_optimize.c
+SOURCE                  be_aas_reach.c
+SOURCE                  be_aas_route.c
+SOURCE                  be_aas_routealt.c
+SOURCE                  be_aas_sample.c
+SOURCE                  be_ai_char.c
+SOURCE                  be_ai_chat.c
+SOURCE                  be_ai_gen.c
+SOURCE                  be_ai_goal.c
+SOURCE                  be_ai_move.c
+SOURCE                  be_ai_weap.c
+SOURCE                  be_ai_weight.c
+SOURCE                  be_ea.c
+SOURCE                  be_interface.c
+SOURCE                  l_crc.c
+SOURCE                  l_libvar.c
+SOURCE                  l_log.c
+SOURCE                  l_memory.c
+SOURCE                  l_precomp.c
+SOURCE                  l_script.c
+SOURCE                  l_struct.c
+
+USERINCLUDE             ..\quake3-1.32b\code\renderer
+SOURCEPATH              ..\quake3-1.32b\code\renderer
+
+SOURCE                  tr_animation.c
+SOURCE                  tr_backend.c
+SOURCE                  tr_bsp.c
+SOURCE                  tr_cmds.c
+SOURCE                  tr_curve.c
+SOURCE                  tr_flares.c
+SOURCE                  tr_font.c
+SOURCE                  tr_image.c
+SOURCE                  tr_init.c
+SOURCE                  tr_light.c
+SOURCE                  tr_main.c
+SOURCE                  tr_marks.c
+SOURCE                  tr_mesh.c
+SOURCE                  tr_model.c
+SOURCE                  tr_noise.c
+SOURCE                  tr_scene.c
+SOURCE                  tr_shade.c
+SOURCE                  tr_shade_calc.c
+SOURCE                  tr_shader.c
+SOURCE                  tr_shadows.c
+SOURCE                  tr_sky.c
+SOURCE                  tr_surface.c
+SOURCE                  tr_world.c
+
+USERINCLUDE             ..\quake3-1.32b\code\jpeg-6
+SOURCEPATH              ..\quake3-1.32b\code\jpeg-6
+
+SOURCE                  jcapimin.c
+SOURCE                  jccoefct.c
+SOURCE                  jccolor.c
+SOURCE                  jcdctmgr.c
+SOURCE                  jchuff.c
+SOURCE                  jcinit.c
+SOURCE                  jcmainct.c
+SOURCE                  jcmarker.c
+SOURCE                  jcmaster.c
+SOURCE                  jcomapi.c
+SOURCE                  jcparam.c
+SOURCE                  jcphuff.c
+SOURCE                  jcprepct.c
+SOURCE                  jcsample.c
+SOURCE                  jctrans.c
+SOURCE                  jdapimin.c
+SOURCE                  jdapistd.c
+SOURCE                  jdatadst.c
+SOURCE                  jdatasrc.c
+SOURCE                  jdcoefct.c
+SOURCE                  jdcolor.c
+SOURCE                  jddctmgr.c
+SOURCE                  jdhuff.c
+SOURCE                  jdinput.c
+SOURCE                  jdmainct.c
+SOURCE                  jdmarker.c
+SOURCE                  jdmaster.c
+SOURCE                  jdpostct.c
+SOURCE                  jdsample.c
+SOURCE                  jdtrans.c
+SOURCE                  jerror.c
+SOURCE                  jfdctflt.c
+SOURCE                  jidctflt.c
+SOURCE                  jmemmgr.c
+SOURCE                  jmemnobs.c
+SOURCE                  jutils.c
+
+
+USERINCLUDE             ..\quake3-1.32b\code\client
+SOURCEPATH              ..\quake3-1.32b\code\client
+
+SOURCE                  cl_cgame.c
+SOURCE                  cl_cin.c
+SOURCE                  cl_console.c
+SOURCE                  cl_input.c
+SOURCE                  cl_keys.c
+SOURCE                  cl_main.c
+SOURCE                  cl_net_chan.c
+SOURCE                  cl_parse.c
+SOURCE                  cl_scrn.c
+SOURCE                  cl_ui.c
+SOURCE                  snd_adpcm.c
+SOURCE                  snd_dma.c
+SOURCE                  snd_mem.c
+SOURCE                  snd_mix.c
+SOURCE                  snd_wavelet.c
+
+USERINCLUDE             ..\quake3-1.32b\code\qcommon
+SOURCEPATH              ..\quake3-1.32b\code\qcommon
+
+SOURCE                  cm_load.c
+SOURCE                  cm_patch.c
+SOURCE                  cm_polylib.c
+SOURCE                  cm_test.c
+SOURCE                  cm_trace.c
+SOURCE                  cmd.c
+SOURCE                  common.c
+SOURCE                  cvar.c
+SOURCE                  files.c
+SOURCE                  huffman.c
+SOURCE                  md4.c
+SOURCE                  msg.c
+SOURCE                  net_chan.c
+SOURCE                  unzip.c
+SOURCE                  vm.c
+SOURCE                  vm_interpreted.c
+
+USERINCLUDE             ..\quake3-1.32b\code\game
+SOURCEPATH              ..\quake3-1.32b\code\game
+SOURCE                  q_math.c
+SOURCE                  q_shared.c
+
+USERINCLUDE             ..\quake3-1.32b\code\server
+SOURCEPATH              ..\quake3-1.32b\code\server
+SOURCE                  sv_bot.c
+SOURCE                  sv_ccmds.c
+SOURCE                  sv_client.c
+SOURCE                  sv_game.c
+SOURCE                  sv_init.c
+SOURCE                  sv_main.c
+SOURCE                  sv_net_chan.c
+SOURCE                  sv_snapshot.c
+SOURCE                  sv_world.c
+
+SYSTEMINCLUDE           \epoc32\include\bthidsrv \epoc32\include\mw \epoc32\include\platform \epoc32\include\platform\mw
+SOURCEPATH              ..\src
+SOURCE                  symbian_main.cpp
+SOURCE                  symbian_shared.c
+SOURCE                  symbian_net.c
+SOURCE                  symbian_glimp.cpp
+SOURCE                  symbian_snddma.cpp
+SOURCE                  symbian_input.cpp
+SOURCE                  hidinputmonitor.cpp
+SOURCE                  stackextender.cpp
+SOURCE                  audiostream.cpp
+SOURCE                  hostname.cpp
+SOURCE                  multitaptranslator.cpp
+SOURCE                  eventmonitor.cpp
+SOURCE                  remotectrlmonitor.cpp
+SOURCE                  wseventhandler.cpp
+SOURCE                  atof.c
+#if !defined(WINS)
+SOURCE                  readwritesp.s
+#endif
+SOURCE                  hunkmem.cpp
+
+
+STATICLIBRARY 		    libcrt0.lib
+STATICLIBRARY           nanogl.lib
+LIBRARY                 libm.lib
+LIBRARY         	    euser.lib
+LIBRARY         	    libc.lib
+
+LIBRARY                 libdl.lib
+LIBRARY                 ws32.lib
+LIBRARY                 apgrfx.lib 
+LIBRARY                 cone.lib
+LIBRARY                 ptiengine.lib
+LIBRARY                 avkon.lib
+LIBRARY                 hal.lib
+LIBRARY                 mediaclientaudiostream.lib
+LIBRARY                 esock.lib 
+LIBRARY                 insock.lib
+LIBRARY                 commdb.lib
+LIBRARY                 remconcoreapi.lib 
+LIBRARY                 remconinterfacebase.lib 
+
+
+SOURCEPATH              ..\rss
+START RESOURCE	        quake3.rss
+HEADER
+targetpath	            \resource\apps
+lang		            sc
+end
+
+START RESOURCE	        quake3_reg.rss
+TARGETPATH	            \private\10003a3f\apps
+END
+
+SOURCEPATH ..\quake3-1.32b\code\jpeg-6
+SOURCE jcapistd.c jdmerge.c jdphuff.c jfdctfst.c jfdctint.c jidctfst.c jidctint.c jidctred.c jload.c jmemansi.c jmemdos.c jmemname.c jpegtran.c jquant1.c jquant2.c
